@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../IMAGES/header-background2.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+@media (max-width: 1440px) {
+    header {
+        background-image: url("../IMAGES/header-background2.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 1366px) {
+    header {
+        background-image: url("../IMAGES/header-background-1366-768.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto;
+        background-attachment: scroll;
+        width: 100%;
+        height: 650px;
+    }
+
+    .container {
+        width: 1100px;
+        height: 650px;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .nav__logo {
+        margin-left: -40px;
+    }
+
+    .nav__logo img {
+        width: 220px;
+        height: 36px;
+    }
+
+    .nav__ul {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .nav__ul li {
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+    .nav__ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 22px;
+    }
+
+    .container__content {
+        margin-top: 3%;
+    }
+
+    .content__h1 {
+        color: white;
+        font-size: 36px;
+    }
+
+    .content__p {
+        color: white;
+        font-size: 28px;
+        margin-top: -28px;
+    }
+
+    .content__ul li {
+        color: white;
+        font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .content__button{
+        background-color: black;
+        border-color: rgba(215, 215, 215, 0.8);
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 250px;
+        height: 50px;
+
+    }
+    .button__a{
+        text-decoration: none;
+        color: white;
+        font-size: 36px;
+        width: 250px;
+        height: 50px;
+    }
+    .content__button:hover{
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: black;
+        text-align: center;
+        width: 250px;
+        height: 50px;
+        transition: .5s;
+        color: black;
+    }
+    .content__button:hover .button__a{
+        color: black;
+        transition: .5s;
+        width: 250px;
+        height: 50px;
+    }
+    main{
+        width: 100%;
+        position: absolute;
+        margin-top: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container__text{
+        width: 100%;
+        text-align: center;
+    }
+    .container__flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .flex__block{
+        width: 350px;
+        height: 250px;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .flex__block img{
+        width: 100%;
+        height: auto;
+    }
+    .flex__block p{
+        text-align: center;
+    }
+    .main__section-2{
+        width: 100%;
+        height: 650px;
+        background-color: #262626;
+    }
+    .flex_block-2{
+        width: 350px;
+        height: 400px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .main__section-2 h1{
+        color: white;
+        text-align: center;
+        padding-top: 2%;
+    }
+    .flex__block-2 img{
+        width: 100%;
+        height: auto;
+    }
+    .flex_block-2 p{
+        text-align: center;
+        color: #ffffff;
+        font-size: 26px;
+        margin-top: 1px;
+    margin-bottom: 5px;
+    }
+.flex__block-2__button{
+    background-color: black;
+    border-color: rgba(215, 215, 215, 0.8);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+    .flex__block-2__button:hover{
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color: black;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        transition: .5s;
+        color: black;
+    }
+    .flex__block-2__button:hover .button__a{
+        color: black;
+        transition: .5s;
+        width: 200px;
+        height: 50px;
+    }
+    .main__section-3 h1{
+        color: #000000;
+        text-align: center;
+        padding-top: 1%;
+    }
+    .main__section-3__text-content{
+        width: 60%;
+    }
+    .main__section-3__text-content h2{
+        font-size: 28px;
+        width: 120%;
+    }
+    .main__section-3__text-content p{
+    font-size: 24px;
+    }
+.main__section-3__button-2{
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+.button-2__a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 36px;
+    width: 200px;
+    height: 50px;
+}
+.main__section-3__button-2:hover{
+    background-color: #888888;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #191919;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    transition: .5s;
+    color: black;
+}
+.main__section-3__button-2:hover .button-2__a{
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: 36px;
+    width: 200px;
+    height: 50px;
+    transition: .5s;
+}
+
+}
