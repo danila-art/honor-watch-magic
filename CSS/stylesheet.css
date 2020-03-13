@@ -29,6 +29,392 @@ header {
 
 }
 
+@media (max-width: 1920px) {
+    header {
+        background-image: url("../IMAGES/header-background-1920-1080.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: auto;
+        background-attachment: scroll;
+        width: 100%;
+        height: 1080px;
+    }
+
+    .container {
+        width: 1580px;
+        height: 1080px;
+        margin: 0 auto;
+    }
+
+    nav {
+        margin-top: 3%;
+        display: flex;
+    }
+
+    .nav__logo {
+        margin-left: -40px;
+    }
+
+    .nav__logo img {
+        width: 320px;
+        height: 50px;
+    }
+
+    .nav__ul {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .nav__ul li {
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+    .nav__ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 29px;
+    }
+
+    .container__content {
+        margin-top: 3%;
+    }
+
+    .content__h1 {
+        color: white;
+        font-size: 56px;
+    }
+
+    .content__p {
+        color: white;
+        font-size: 38px;
+        margin-top: -28px;
+    }
+
+    .content__ul li {
+        color: white;
+        font-size: 32px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .content__button {
+        background-color: black;
+        border-color: rgba(215, 215, 215, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 300px;
+        height: 60px;
+
+    }
+
+    .button__a {
+        text-decoration: none;
+        color: white;
+        font-size: 36px;
+        width: 300px;
+        height: 60px;
+    }
+
+    .content__button:hover {
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        text-align: center;
+        width: 300px;
+        height: 60px;
+        transition: .5s;
+        color: black;
+    }
+
+    .content__button:hover .button__a {
+        color: black;
+        transition: .5s;
+        width: 250px;
+        height: 50px;
+    }
+
+    main {
+        width: 100%;
+        position: absolute;
+        margin-top: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container__text {
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container__text h1 {
+    font-size: 40px;
+    }
+
+    .container__flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .flex__block {
+        width: 450px;
+        height: 350px;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .flex__block img {
+        width: 100%;
+        height: auto;
+    }
+
+    .flex__block p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .main__section-2 {
+        width: 100%;
+        height: 1080px;
+        background-color: #262626;
+    }
+
+    .flex_block-2-1 {
+        background: url("../IMAGES/section-2/section-2__flex-block-1-450-500.png") no-repeat center center / cover;
+        width: 450px;
+        height: 600px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .flex_block-2-2 {
+        background: url("../IMAGES/section-2/section-2__flex-block-2-450-500.png") no-repeat center center / cover;
+        width: 450px;
+        height: 600px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .flex_block-2-3 {
+        background: url("../IMAGES/section-2/section-2__flex-block-3-450-500.png") no-repeat center center / cover;
+        width: 500px;
+        height: 600px;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .main__section-2 h1 {
+        color: white;
+        text-align: center;
+        padding-top: 4%;
+        font-size: 40px;
+    }
+
+    .flex_block-2-1 p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+        margin-top: 620px;
+        margin-bottom: 20px;
+    }
+    .flex_block-2-2 p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+        margin-top: 620px;
+        margin-bottom: 20px;
+    }
+    .flex_block-2-3 p {
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+        margin-top: 620px;
+        margin-bottom: 20px;
+    }
+
+    .flex__block-2__button {
+        background-color: black;
+        border-color: rgba(255, 255, 255, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .flex__block-2__button:hover {
+        background-color: white;
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        transition: .5s;
+        color: black;
+    }
+
+    .flex__block-2__button:hover .button__a {
+        color: black;
+        transition: .5s;
+        width: 200px;
+        height: 50px;
+    }
+
+    .main__section-3 h1 {
+        font-size: 40px;
+        color: #000000;
+        text-align: center;
+        padding-top: 1%;
+    }
+
+    .main__section-3__text-content {
+        width: 60%;
+    }
+
+    .main__section-3__text-content h2 {
+        font-size: 38px;
+        width: 120%;
+    }
+
+    .main__section-3__text-content p {
+        font-size: 34px;
+    }
+
+    .main__section-3__button-2 {
+        background-color: #ffffff;
+        border-color: rgba(0, 0, 0, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        /*margin: 0 auto;*/
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+    .button-2__a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 36px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .main__section-3__button-2:hover {
+        background-color: rgba(135, 131, 132, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6c6c6c;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        transition: .5s;
+        color: black;
+    }
+
+    .main__section-3__button-2:hover .button-2__a {
+        text-decoration: none;
+        color: #fdfdfd;
+        font-size: 36px;
+        width: 200px;
+        height: 50px;
+        transition: .5s;
+    }
+
+    .slider {
+        position: relative;
+        width: 450px;
+        height: 500px;
+        margin-left: auto;
+
+    }
+
+    .slider input[name="switch"] {
+        display: none;
+    }
+
+    .switch {
+        position: absolute;
+        margin: 0 auto;
+        bottom: -40px;
+        text-align: center;
+        width: 75%;
+    }
+
+    .switch label {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        margin: 0 3px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        border: 5px solid #2f363c;
+        background-color: #738290;
+    }
+
+    #btn1:checked ~ .switch label[for="btn1"] {
+        background-color: white;
+    }
+
+    #btn2:checked ~ .switch label[for="btn2"] {
+        background-color: white;
+    }
+
+    #btn3:checked ~ .switch label[for="btn3"] {
+        background-color: white;
+    }
+
+    .slider-inner {
+        display: flex;
+        overflow: hidden;
+        height: 450px;
+        width: 500px;
+    }
+
+    .slides {
+        display: flex;
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+    .slides img {
+        width: 450px;
+        height: 500px;
+        float: right;
+    }
+
+    #btn1:checked ~ slider-inner slides {
+        transform: translate(0);
+    }
+
+    #btn2:checked ~ .slider-inner .slides {
+        transform: translate(-350px);
+    }
+
+    #btn3:checked ~ .slider-inner .slides {
+        transform: translate(-700px);
+    }
+}
+
 @media (max-width: 1366px) {
     header {
         background-image: url("../IMAGES/header-background-1366-768.png");
@@ -101,7 +487,8 @@ header {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .content__button{
+
+    .content__button {
         background-color: black;
         border-color: rgba(215, 215, 215, 0.8);
         border-radius: 10px;
@@ -112,14 +499,16 @@ header {
         height: 50px;
 
     }
-    .button__a{
+
+    .button__a {
         text-decoration: none;
         color: white;
         font-size: 36px;
         width: 250px;
         height: 50px;
     }
-    .content__button:hover{
+
+    .content__button:hover {
         background-color: white;
         border-style: solid;
         border-width: 2px;
@@ -131,47 +520,56 @@ header {
         transition: .5s;
         color: black;
     }
-    .content__button:hover .button__a{
+
+    .content__button:hover .button__a {
         color: black;
         transition: .5s;
         width: 250px;
         height: 50px;
     }
-    main{
+
+    main {
         width: 100%;
         position: absolute;
         margin-top: 650px;
         margin-left: auto;
         margin-right: auto;
     }
-    .container__text{
+
+    .container__text {
         width: 100%;
         text-align: center;
     }
-    .container__flex{
+
+    .container__flex {
         display: flex;
         justify-content: space-evenly;
     }
-    .flex__block{
+
+    .flex__block {
         width: 350px;
         height: 250px;
         margin-top: 3%;
         margin-left: 2%;
         margin-right: 2%;
     }
-    .flex__block img{
+
+    .flex__block img {
         width: 100%;
         height: auto;
     }
-    .flex__block p{
+
+    .flex__block p {
         text-align: center;
     }
-    .main__section-2{
+
+    .main__section-2 {
         width: 100%;
         height: 650px;
         background-color: #262626;
     }
-    .flex_block-2{
+
+    .flex_block-2 {
         width: 350px;
         height: 400px;
         margin-top: 2%;
@@ -180,34 +578,39 @@ header {
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
     }
-    .main__section-2 h1{
+
+    .main__section-2 h1 {
         color: white;
         text-align: center;
         padding-top: 2%;
     }
-    .flex__block-2 img{
+
+    .flex__block-2 img {
         width: 100%;
         height: auto;
     }
-    .flex_block-2 p{
+
+    .flex_block-2 p {
         text-align: center;
         color: #ffffff;
         font-size: 26px;
         margin-top: 1px;
-    margin-bottom: 5px;
+        margin-bottom: 5px;
     }
-.flex__block-2__button{
-    background-color: black;
-    border-color: rgba(215, 215, 215, 0.8);
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2px;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-}
-    .flex__block-2__button:hover{
+
+    .flex__block-2__button {
+        background-color: black;
+        border-color: rgba(215, 215, 215, 0.8);
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .flex__block-2__button:hover {
         background-color: white;
         border-style: solid;
         border-width: 2px;
@@ -219,64 +622,147 @@ header {
         transition: .5s;
         color: black;
     }
-    .flex__block-2__button:hover .button__a{
+
+    .flex__block-2__button:hover .button__a {
         color: black;
         transition: .5s;
         width: 200px;
         height: 50px;
     }
-    .main__section-3 h1{
+
+    .main__section-3 h1 {
         color: #000000;
         text-align: center;
         padding-top: 1%;
     }
-    .main__section-3__text-content{
+
+    .main__section-3__text-content {
         width: 60%;
     }
-    .main__section-3__text-content h2{
+
+    .main__section-3__text-content h2 {
         font-size: 28px;
         width: 120%;
     }
-    .main__section-3__text-content p{
-    font-size: 24px;
-    }
-.main__section-3__button-2{
-    background-color: #ffffff;
-    border-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2px;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    margin: 0 auto;
-}
-.button-2__a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 36px;
-    width: 200px;
-    height: 50px;
-}
-.main__section-3__button-2:hover{
-    background-color: #888888;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #191919;
-    text-align: center;
-    width: 200px;
-    height: 50px;
-    transition: .5s;
-    color: black;
-}
-.main__section-3__button-2:hover .button-2__a{
-    text-decoration: none;
-    color: #fdfdfd;
-    font-size: 36px;
-    width: 200px;
-    height: 50px;
-    transition: .5s;
-}
 
+    .main__section-3__text-content p {
+        font-size: 24px;
+    }
+
+    .main__section-3__button-2 {
+        background-color: #ffffff;
+        border-color: rgba(0, 0, 0, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        /*margin: 0 auto;*/
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+    .button-2__a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 36px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .main__section-3__button-2:hover {
+        background-color: rgba(135, 131, 132, 0.8);
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6c6c6c;
+        text-align: center;
+        width: 200px;
+        height: 50px;
+        transition: .5s;
+        color: black;
+    }
+
+    .main__section-3__button-2:hover .button-2__a {
+        text-decoration: none;
+        color: #fdfdfd;
+        font-size: 36px;
+        width: 200px;
+        height: 50px;
+        transition: .5s;
+    }
+
+    .slider {
+        position: relative;
+        width: 350px;
+        height: 400px;
+        margin-left: auto;
+
+    }
+
+    .slider input[name="switch"] {
+        display: none;
+    }
+
+    .switch {
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .switch label {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        margin: 0 3px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+        border-radius: 50%;
+        border: 5px solid #2f363c;
+        background-color: #738290;
+    }
+
+    #btn1:checked ~ .switch label[for="btn1"] {
+        background-color: white;
+    }
+
+    #btn2:checked ~ .switch label[for="btn2"] {
+        background-color: white;
+    }
+
+    #btn3:checked ~ .switch label[for="btn3"] {
+        background-color: white;
+    }
+
+    .slider-inner {
+        display: flex;
+        overflow: hidden;
+        height: 400px;
+        width: 350px;
+    }
+
+    .slides {
+        display: flex;
+        width: 100%;
+        transition: all 0.5s;
+    }
+
+    .slides img {
+        width: 350px;
+        height: 400px;
+        float: right;
+    }
+
+    #btn1:checked ~ slider-inner slides {
+        transform: translate(0);
+    }
+
+    #btn2:checked ~ .slider-inner .slides {
+        transform: translate(-350px);
+    }
+
+    #btn3:checked ~ .slider-inner .slides {
+        transform: translate(-700px);
+    }
 }
